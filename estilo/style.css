@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: cursive;
+    background-image: url('../imagens/fundo.jpg');
+    background-attachment: fixed;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    padding: 20px;
+    background-image: linear-gradient(to right, #6ec3f5, #1496E0);
+    border-bottom: 8px solid #094161;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.382);
+   
+}
+
+header > h1 {
+    color: white;
+}
+
+header > nav {
+    position: absolute;
+    left: 80%;
+    top: 40px;
+}
+
+header > nav > a {
+    padding: 8px;
+    margin-right: 10px;
+    color: #094161;
+    text-decoration: none;
+    border: 1px solid #094161;
+    border-radius: 8px;
+}
+
+header > nav > a:hover {
+    color: white;
+    border: 1px solid white;
+    transition: .5s;
+}
+
+main {
+    text-align: center;
+}
+
+main > h2 {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    display: inline-flex;
+}
+
+div.produto {
+    background-color: #1495e06b;
+    width: 200px;
+    height: 270px;
+    margin: 20px;
+    border: 1px solid #094161;
+}
+
+div.produto > p {
+    background-color: #094161;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#botao {
+    text-align: center;
+    padding: 30px;
+}
+
+a#bot {
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.378);
+}
+
+a#bot:hover {
+    text-decoration: underline;
+    background-image: linear-gradient(to right, rgb(3, 159, 3), rgb(0, 77, 0));
+    transition: .3s;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+img#float {
+    position: absolute;
+    right: 10px;
+    bottom: 50px;
+    position: fixed;
+    
+}
+
